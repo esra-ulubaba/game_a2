@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who Am I / Where Am I?</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>🎮 Who Am I / Where Am I?</h1>
+  
+  <!-- Başlangıç ekranı -->
+  <div id="start-container">
+    <p>Enter your name to start the game:</p>
+    <input type="text" id="username" placeholder="Your name">
+    <button id="start-btn">Start Game 🚀</button>
+  </div>
+  
+  <!-- Oyun ekranı -->
+  <div id="game-container" style="display:none;">
+    <div id="hint-container">
+      <p id="hint1"></p>
+      <p id="hint2"></p>
+      <p id="hint3"></p>
+    </div>
+
+    <input type="text" id="guess" placeholder="Type your answer here...">
+    <button onclick="checkAnswer()">Check ✅</button>
+
+    <p id="feedback"></p>
+    <img id="hint-image" src="" alt="Hint Image">
+
+    <br>
+    <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next ➡️</button>
+
+    <div id="score-container">
+      <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <!-- Leaderboard -->
+    <p id="final-score"></p>
+    <div id="leaderboard-container" style="display:none;">
+      <h2>🏆 Class Leaderboard</h2>
+      <ol id="leaderboard"></ol>
+    </div>
+  </div>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
