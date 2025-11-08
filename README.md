@@ -2,9 +2,9 @@
 
 **📖 Overview**
 
-* This is a real-time multiplayer English vocabulary guessing game designed for A2 level students.
-* Players join the game with their names, view image and text hints, and try to guess the correct word before others.
-* At the end of the game, everyone’s scores are displayed on a live leaderboard.
+ This is a real-time multiplayer English vocabulary guessing game designed for A2 level students.
+ Players join the game with their names, view image and text hints, and try to guess the correct word before others.
+ At the end of the game, everyone’s scores are displayed on a live leaderboard.
 
 **🚀 Features**
 
