@@ -154,6 +154,7 @@ Use eventlet for WebSocket stability on free hosting platforms.
 👉 **Play Here:** https://gamea2-production.up.railway.app/
 
 **📝 Answers / Solution Key**
+
 Here are the correct answers for each question in the game:
 
 1. crowded
