@@ -1,22 +1,22 @@
 **🧩 English Vocabulary Game A2**
 
 **📖 Overview**
-```
-This is a real-time multiplayer English vocabulary guessing game designed for A2 level students.
-Players join the game with their names, view image and text hints, and try to guess the correct word before others.
-At the end of the game, everyone’s scores are displayed on a live leaderboard.
-```
+
+* This is a real-time multiplayer English vocabulary guessing game designed for A2 level students.
+* Players join the game with their names, view image and text hints, and try to guess the correct word before others.
+* At the end of the game, everyone’s scores are displayed on a live leaderboard.
+
 
 **🚀 Features**
-```
-✅ Real-time player scores and leaderboard (Socket.IO)
-✅ Hint-based question system (three clues per question)
-✅ Image-based vocabulary questions
-✅ Instant feedback (Correct / Try Again)
-✅ Automatic scoring by number of attempts
-✅ Responsive design for mobile & desktop
-✅ Hosted on Railway — no local server required
-```
+
+* Real-time player scores and leaderboard (Socket.IO)
+* Hint-based question system (three clues per question)
+* Image-based vocabulary questions
+* Instant feedback (Correct / Try Again)
+* Automatic scoring by number of attempts
+* Responsive design for mobile & desktop
+* Hosted on Railway — no local server required
+
 
 
 | Layer                   | Technology                      |
@@ -95,15 +95,15 @@ Go to railway.app
  → Sign up with GitHub → Grant permission to access your repositories.
 
 3️⃣ Deploy from GitHub
-```
-Click New Project → Deploy from GitHub Repo
 
-Select your game repository
+* Click New Project → Deploy from GitHub Repo
 
-Choose your branch (usually main)
+* Select your game repository
 
-Railway will automatically detect the Python environment and install dependencies.
-```
+* Choose your branch (usually main)
+
+* Railway will automatically detect the Python environment and install dependencies.
+
 
 4️⃣ Configure your server
 
@@ -123,19 +123,17 @@ if __name__ == '__main__':
 ```
 
 5️⃣ Deploy and check logs
-```
 
 Click Deploy → wait until the container starts.
 
 Open the Logs tab to ensure the app is running.
 
 If you see something like Running on http://0.0.0.0:5000, it’s successful.
-```
 
-```
+
 Then click “Open in Browser” or copy your public URL, e.g.:
 👉 https://gamea2-production.up.railway.app/
-```
+
 
 6️⃣ Share your game 🎉
 
@@ -144,13 +142,12 @@ Anyone — from desktop or phone, on any network — can join the same game in r
 
 **💡 Tips for Better Deployments**
 
-```
 Make sure all file paths are relative (e.g., /static/images/... instead of local C:\...).
 
 Keep your images lightweight for faster loading.
 
 Use eventlet for WebSocket stability on free hosting platforms.
-```
+
 
 **🌐 Live Demo**
 
