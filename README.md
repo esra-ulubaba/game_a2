@@ -153,6 +153,20 @@ Use eventlet for WebSocket stability on free hosting platforms.
 
 👉 **Play Here:** https://gamea2-production.up.railway.app/
 
+**📝 Answers / Solution Key**
+Here are the correct answers for each question in the game:
+
+1. crowded
+2. shopping centre
+3. talkative
+4. tall
+5. hardworking
+6. go shopping
+7. make the bed
+8. wash the dishes
+9. bus
+10. sunbathe
+
 
 **👩‍💻 Author**
 
