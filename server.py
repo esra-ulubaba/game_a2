@@ -1,5 +1,8 @@
 from flask import Flask, render_template, request
 from flask_socketio import SocketIO, emit
+import eventlet
+import eventlet.wsgi
+import os
 
 app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
@@ -34,4 +37,6 @@ def disconnect():
     emit('updateLeaderboard', players, broadcast=True)
 
 if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    eventlet.wsgi.server(eventlet.listen(('', port)), app)
+
