@@ -27,16 +27,29 @@ At the end of the game, everyone’s scores are displayed on a live leaderboard.
 
 
 📂 Project Structure
+```
+
 .
+
 ├── static/
-│   ├── images/
-│   ├── script.js
-│   └── style.css
+
+│ ├── images/
+
+│ ├── script.js
+
+│ └── style.css
+
 ├── templates/
-│   └── index.html
+
+│ └── index.html
+
 ├── server.py
+
 ├── requirements.txt
+
 └── README.md
+
+```
 
 ⚙️ Local Setup (Optional)
 
@@ -60,17 +73,29 @@ You can easily deploy this real-time Flask + Socket.IO game using Railway
 1️⃣ Create a GitHub repository
 
 Upload your project files to GitHub:
+```
 
 .
-├── static/
-│   ├── images/
-│   ├── script.js
-│   └── style.css
-├── templates/
-│   └── index.html
-├── server.py
-└── requirements.txt
 
+├── static/
+
+│ ├── images/
+
+│ ├── script.js
+
+│ └── style.css
+
+├── templates/
+
+│ └── index.html
+
+├── server.py
+
+├── requirements.txt
+
+└── README.md
+
+```
 
 Your requirements.txt must include:
 flask
