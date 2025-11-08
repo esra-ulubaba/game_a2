@@ -1,20 +1,20 @@
-🧩 English Vocabulary Game A2
+**🧩 English Vocabulary Game A2**
 
-📖 Overview
+**📖 Overview**
 
-This is a real-time multiplayer English vocabulary guessing game designed for A2 level students.
-Players join the game with their names, view image and text hints, and try to guess the correct word before others.
-At the end of the game, everyone’s scores are displayed on a live leaderboard.
+* This is a real-time multiplayer English vocabulary guessing game designed for A2 level students.
+* Players join the game with their names, view image and text hints, and try to guess the correct word before others.
+* At the end of the game, everyone’s scores are displayed on a live leaderboard.
 
-🚀 Features
+**🚀 Features**
 
-✅ Real-time player scores and leaderboard (Socket.IO)
-✅ Hint-based question system (three clues per question)
-✅ Image-based vocabulary questions
-✅ Instant feedback (Correct / Try Again)
-✅ Automatic scoring by number of attempts
-✅ Responsive design for mobile & desktop
-✅ Hosted on Railway — no local server required
+* ✅ Real-time player scores and leaderboard (Socket.IO)
+* ✅ Hint-based question system (three clues per question)
+* ✅ Image-based vocabulary questions
+* ✅ Instant feedback (Correct / Try Again)
+* ✅ Automatic scoring by number of attempts
+* ✅ Responsive design for mobile & desktop
+* ✅ Hosted on Railway — no local server required
 
 
 | Layer                   | Technology                      |
@@ -26,32 +26,23 @@ At the end of the game, everyone’s scores are displayed on a live leaderboard.
 | WebSocket Engine        | Eventlet                        |
 
 
-📂 Project Structure
+**📂 Project Structure**
 ```
 
 .
-
 ├── static/
-
 │ ├── images/
-
 │ ├── script.js
-
 │ └── style.css
-
 ├── templates/
-
 │ └── index.html
-
 ├── server.py
-
 ├── requirements.txt
-
 └── README.md
 
 ```
 
-⚙️ Local Setup (Optional)
+**⚙️ Local Setup (Optional)**
 
 If you want to run the game locally:
 
@@ -63,7 +54,7 @@ python server.py
 Then open http://localhost:5000 in your browser.
 
 
-☁️ Deployment on Railway
+**☁️ Deployment on Railway**
 
 You can easily deploy this real-time Flask + Socket.IO game using Railway
  — a free and beginner-friendly hosting platform for web apps.
@@ -76,31 +67,22 @@ Upload your project files to GitHub:
 ```
 
 .
-
 ├── static/
-
 │ ├── images/
-
 │ ├── script.js
-
 │ └── style.css
-
 ├── templates/
-
 │ └── index.html
-
 ├── server.py
-
 ├── requirements.txt
-
 └── README.md
 
 ```
 
 Your requirements.txt must include:
-flask
-flask-socketio
-eventlet
+* flask
+* flask-socketio
+* eventlet
 
 2️⃣ Create a Railway account
 
@@ -157,12 +139,12 @@ Keep your images lightweight for faster loading.
 
 Use eventlet for WebSocket stability on free hosting platforms.
 
-🌐 Live Demo
+**🌐 Live Demo**
 
-👉 Play Here: https://gamea2-production.up.railway.app/
+👉 **Play Here:** https://gamea2-production.up.railway.app/
 
 
-👩‍💻 Author
-Esranur Ulubaba
+**👩‍💻 Author**
+**Esranur Ulubaba**
 📍 Front-End & UI/UX Enthusiast
 💬 “Creating interactive and educational experiences through code.”
